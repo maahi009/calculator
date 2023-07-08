@@ -1,0 +1,69 @@
+body{
+    background-color: azure;
+}
+
+button{
+    border: none;
+}
+h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(100, 99, 99);
+}
+.container{
+    max-width:400px;
+    margin:auto;
+    padding: 10px;
+    border-radius:10px;
+    background-color:rgb(100, 98, 98);
+}
+#screen{
+    display: block;
+    width: 100%;
+    background-color: rgb(71, 70, 70);
+    color: white;
+    text-align: right;
+}
+#screen>p{
+    margin:0 7px;
+    font-size:4em;
+    font-weight:700;
+    overflow:hidden;
+}
+
+#buttons{
+    margin-top: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 5px;
+}
+
+.btn{
+   padding: 20px 0;
+   border-radius: 5px;
+   font-weight: 400;
+}
+.btn:hover{
+    opacity:0.8;
+}
+.btn:active{
+    transition: -0.3s;
+    background-color: rgb(183, 186, 186);
+}
+
+.oprtr{
+    background-color: rgb(218, 224, 229);
+}
+.AC, .del, .eqlsto{
+    background-color: rgb(229, 218, 218);
+}
+.AC{
+    grid-column: span 2;
+}
+
+.dot{
+    font-weight: 700;
+}
